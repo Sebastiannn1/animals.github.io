@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <title>Performance Task: ANIMALS</title>
+<style>
+    * {
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    }
+p {
+     font-size: 35px;
+}
+    body {
+background-image: url("https://pm1.narvii.com/6572/ab24cd5d232fbf09f1a20b031af67008932c6ae9_hq.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: 100% 100%;
+color: #fff;
+	margin: 0px auto;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    #info1,#info2,#info3,#info4,#info5,#info6,#info7,#info8,#info9,#info10 {
+        display: none;
+    }
+
+    .img {
+        width: 500px;
+        height: auto;
+    }
+
+</style>
+</head>
+<body>
+    <h2>Welcome to Loona's World</h2>
+    <br>  Made by Sean Kevin Santiago </br>
+    <h3>1. Rabbit ( Heejin )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805683433829171230/bunny-rabbit.png" class="img">
+    <img src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t1.15752-9/122485694_372398677441556_7119960575073490927_n.png?_nc_cat=101&ccb=3&_nc_sid=ae9488&_nc_ohc=zXzNjwW_8Z4AX83UqDd&_nc_ht=scontent.fcrk1-2.fna&oh=5669cb80eecab698a0e0142fa5b687ab&oe=604F95B0" class="img">
+    <p><span id="info1">Scientific name: Oryctolagus cuniculus<br>Height : Around 8 inches - 20 inches<br>Life Span: 1 - 2 years<br>Status: Near Threatened (Population decreasing)<br>Daily sleep: 8.4 hours (Adult, In captivity)</span></p>
+    <button onclick="one()" id="one">More Info</button>
+     <h3>2. Cat ( Hyunjin )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805701359021457418/why-cats-are-best-pets-1559241235.png" class="img">
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/150919678_415914553042217_3857327889618486696_n.png?_nc_cat=100&ccb=3&_nc_sid=ae9488&_nc_ohc=HZ1zE2ahinEAX8RNfLZ&_nc_ht=scontent.fcrk1-1.fna&oh=3f6efaf89061824a5f9f3af25e8b7815&oe=604FB154" class="img">
+    <p><span id="info2">Scientific name: Felis Catus<br>Height: 23- 25 cm<br> Lifespan: 2 – 16 years (In the wild)<br>Status : Not Extinct<br>Daily sleep: 12 – 16 hours<br></span></p>
+    <button onclick="two()" id="two">More Info</button>
+    <h3>3. Bird ( Haseul )</h3>
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/151256453_777176816515368_5205409170065283287_n.png?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=6ug9OZfK17cAX8DVD6L&_nc_ht=scontent.fcrk1-1.fna&_nc_tp=30&oh=54431634193e45c8cdbcd078dcf21265&oe=604F6E7E" class="img">
+    <img src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t1.15752-9/149293391_137204501511437_2234935607289713325_n.png?_nc_cat=106&ccb=3&_nc_sid=ae9488&_nc_ohc=Z1R0mRtVm4QAX-ZhcO9&_nc_ht=scontent.fcrk1-2.fna&oh=06828d20276f2f77fc163c7fe1647275&oe=60505DDB" class="img">
+    <p><span id="info3">Scientific name: Aves<br>Height : 3 - 72 inches<br>Life Span: 2 - 5 Years
+<br>Status: Not Extinct<br>Daily Sleep: 12 - 13 hours<br></span></p>
+    <button onclick="three()" id="three">More Info</button>
+    <h3>4. Deer ( Vivi )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805706807254450176/7H_g2bKqPa1SwXzHXJqMm35rNdVmYb9QECckv1PlmZg.png"class="img">
+    <img src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t1.15752-9/149321738_528088134845303_1982875833546057528_n.png?_nc_cat=106&ccb=3&_nc_sid=ae9488&_nc_ohc=8w7OOsRGehwAX9Jx4rn&_nc_oc=AQm4Cqih0laVk54mazewz7IXetvAuzt90xa-dGbU-SEEzlrKrm7rmXu-4rTN_p_PRdI&_nc_ht=scontent.fcrk1-2.fna&oh=1f2121738fe59f4b2f57205b2e54c252&oe=6051CDE1" class="img">
+    <p><span id="info4">Scientific name:  Cervidae<br>Height: 85 – 150 cm<br>Life span: 6 years<br>Height: 20 cm (Adult)<br>Status: Not Extinct<br>Daily Sleep: 5 - 10 Minutes</span></p>
+    <button onclick="four()" id="four">More Info</button>
+    <h3>5. Owl ( Kim Lip )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805710310269780008/maxresdefault.png" class="img">
+    <img src="https://scontent.fcrk1-2.fna.fbcdn.net/v/t1.15752-9/49742762_235414374027687_3116012598747725824_n.png?_nc_cat=106&ccb=3&_nc_sid=ae9488&_nc_ohc=oUBGdvZE570AX9GiKJ8&_nc_ht=scontent.fcrk1-2.fna&oh=e7d089721b5498c210222bbcc632c689&oe=6050A690" class="img">
+    <p><span id="info5">Scientific name: Strigiformes<br>Height: 46 cm -  63 cm<br>Life Span: 10 years<br> Status: Not Extinct<br>Daily Sleep: 2 - 3 hours or more<br></span></p>
+    <button onclick="five()" id="five">More Info</button>
+    <h3>6. Blue Betta Fish ( Jinsoul )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805714798502740018/maxresdefault.png" class="img">
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/120602792_569608917114714_4723451538387857534_n.png?_nc_cat=107&ccb=3&_nc_sid=ae9488&_nc_ohc=lGdJ9lP8mesAX9ExnZq&_nc_ht=scontent.fcrk1-1.fna&_nc_tp=30&oh=93bbbfaa9d4188dba8e20634ddcc39d0&oe=60514564" class="img">
+    <p><span id="info6">Scientific name: Betta splendens<br>Length: 2.25 inches - 3 inches<br>Life Span: 3 years<br>Status: Vulnerable (Population decreasing)</span></p>
+    <button onclick="six()" id="six">More Info</button>
+    <h3>7. Swan ( Yves )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805819692659900436/2c69b41fa3528793745bfad3389a1cd3.png" class="img">
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/150272515_1049679398871452_1506198905393696217_n.png?_nc_cat=110&ccb=3&_nc_sid=ae9488&_nc_ohc=U879a6tXm6IAX9Q5M2H&_nc_ht=scontent.fcrk1-1.fna&oh=07b0be0778ce1110e89fd241969c38c5&oe=60521276" class="img">
+    <p><span id="info7">Scientific name: Cygnus<br>Length: 1.1 meters - 1.6 meters<br>Life Span: 12 - 30 years<br>Status: Not Extinct</span></p>
+    <button onclick="seven()" id="seven">More Info</button>
+    <h3>8. Penguin ( Chuu )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805820640858603610/c8774f2ceb3f6e4c0163b05b7c255f06.png" class="img">
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/149696452_1762483257254217_4882191090781529774_n.png?_nc_cat=100&ccb=3&_nc_sid=ae9488&_nc_ohc=lDD1eAO6a6gAX8MPjSM&_nc_ht=scontent.fcrk1-1.fna&oh=9c6743188bf585eba0b885ddaa2311d2&oe=604F1F02" class="img">
+    <p><span id="info8">Scientific name: Spheniscidae<br> 1.1 m - 53 cm<br>Life Span: 6 - 20 years<br>Status: Not Extinct</p>
+    <button onclick="eight()" id="eight">More Info</button>
+    <h3>9. Butterfly ( Gowon )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805821835220090890/Morpho-Butterfly.png" class="img">
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/p1080x2048/52440852_302971207082737_9130018345695838208_n.png?_nc_cat=105&ccb=3&_nc_sid=ae9488&_nc_ohc=IUIeC9mj_IIAX-xNzqM&_nc_ht=scontent.fcrk1-1.fna&_nc_tp=30&oh=b4b0974f82f63a47a3d6cbb9123f3c03&oe=604EFFAF" class="img">
+    <p><span id="info9">Scientific name: Rhopalocera<br>Life Span: 10 days up to 12 months<br>Status: Not Extinct</span></p>
+    <button onclick="nine()" id="nine">More Info</button>
+    <h3>10. Wolf ( Olivia Hye )</h3>
+    <img src="https://cdn.discordapp.com/attachments/734028217404620831/805826031117664266/Alexander_Archipelago_wolf_CRobin_Silver-scr.png" class="img">
+    <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/133363432_740752853514665_2443190213358365917_n.png?_nc_cat=100&ccb=3&_nc_sid=ae9488&_nc_ohc=vEiOfwHjTc4AX8t970B&_nc_ht=scontent.fcrk1-1.fna&oh=93badd0fc717442a6a4910064e4ab196&oe=6052BB07" class="img">
+    <p><span id="info10">Scientific name: Canis lupus<br>Height: 66 – 81 cm (Adult, At Shoulder)<br>Life Span: 6 - 17 years (Adult)<br>Status:  Least Concern (Population stable)</span></p>
+    <button onclick="ten()" id="ten">More Info</button>
+<script>
+function one() {
+    var moreText = document.getElementById("info1");
+    var btnText = document.getElementById("one");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function two() {
+    var moreText = document.getElementById("info2");
+    var btnText = document.getElementById("two");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function three() {
+    var moreText = document.getElementById("info3");
+    var btnText = document.getElementById("three");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function four() {
+    var moreText = document.getElementById("info4");
+    var btnText = document.getElementById("four");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function five() {
+    var moreText = document.getElementById("info5");
+    var btnText = document.getElementById("five");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function six() {
+    var moreText = document.getElementById("info6");
+    var btnText = document.getElementById("six");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function seven() {
+    var moreText = document.getElementById("info7");
+    var btnText = document.getElementById("seven");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function eight() {
+    var moreText = document.getElementById("info8");
+    var btnText = document.getElementById("eight");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function nine() {
+    var moreText = document.getElementById("info9");
+    var btnText = document.getElementById("nine");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+function ten() {
+    var moreText = document.getElementById("info10");
+    var btnText = document.getElementById("ten");
+
+    if (moreText.style.display === "inline") {
+        btnText.innerHTML = "More Info"; 
+        moreText.style.display = "none";
+    } else {
+        btnText.innerHTML = "Less Info"; 
+        moreText.style.display = "inline";
+    }
+}
+</script>
+</body>
+</html>
